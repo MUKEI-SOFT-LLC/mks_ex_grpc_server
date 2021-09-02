@@ -1,0 +1,10 @@
+
+grpc:
+  port: 6848
+  enableReflection: true
+
+  shutdownGrace: 30
+
+  netty-server:
+    keep-alive-time: 30s
+    max-inbound-message-size: 10MB
